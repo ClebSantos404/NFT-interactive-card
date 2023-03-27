@@ -64,17 +64,20 @@ body {
 .img .photo2 {
   z-index: 0;
   position: absolute;
-  content: url(/assets/images/icon-view.svg);
   margin: 10em auto;
 }
 
-.img .photo2:hover {
-  z-index: 2;
+.photo2 img {
+  width: 4em;
+}
+
+.img:hover .photo2{
+  z-index: 3;
+  display: flex;
 }
 
 img:hover {
-  background-color: #2ed9d8;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .itemDescription {
