@@ -49,6 +49,10 @@ body {
   cursor: pointer;
 }
 
+.img img:hover {
+  z-index: 0;
+}
+
 .img:hover {
   z-index: 2;
   width: 23em;
@@ -65,8 +69,7 @@ body {
 }
 
 .img .photo2:hover {
-  content: url(/assets/images/icon-view.svg);
-  z-index: 5;
+  z-index: 2;
 }
 
 img:hover {
