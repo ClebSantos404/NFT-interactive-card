@@ -36,12 +36,41 @@ body {
 .img {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px auto;
+  width: 23em;
+  height: 23em;
 }
 
 .img img {
   width: 23em;
   border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.img:hover {
+  z-index: 2;
+  width: 23em;
+  height: 23em;
+  background: #2ed9d8;
+  border-radius: 7px;
+}
+
+.img .photo2 {
+  z-index: 0;
+  position: absolute;
+  content: url(/assets/images/icon-view.svg);
+  margin: 10em auto;
+}
+
+.img .photo2:hover {
+  z-index: 2;
+}
+
+img:hover {
+  background-color: #2ed9d8;
+  opacity: 0.3;
 }
 
 .itemDescription {
@@ -54,6 +83,11 @@ body {
   font-size: 1.6em;
   letter-spacing: 0px;
   margin-bottom: 20px;
+}
+
+.itemDescription h1:hover {
+  cursor: pointer;
+  color: var(--eth-color);
 }
 
 .itemDescription h1 span {
@@ -116,4 +150,9 @@ body {
   color: var(--color-texts);
   font-weight: 600;
   margin-right: 5px;
+}
+
+.profileCreator p:hover {
+  cursor: pointer;
+  color: var(--eth-color);
 }
