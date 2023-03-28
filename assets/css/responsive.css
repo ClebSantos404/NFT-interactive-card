@@ -1,0 +1,136 @@
+@media (max-width: 420px) {
+  body{
+    width: 100vw;
+  }
+  
+  .cardBody {
+    width: 24em;
+  }
+
+  .img:hover {
+    width: 21em;
+  }
+
+  .img img {
+    width: 21em;
+  }
+
+  .photo2 img {
+    width: 4em;
+  }
+
+  .profileCreator{
+    width: 21em;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 24em;
+    height: 47.7em;
+  }
+
+  .cardBody {
+    width: 22em;
+    height: 40em;
+  }
+
+  .img {
+    width: 20em;
+    height: 20em;
+  }
+
+  .img:hover {
+    width: 20em;
+    height: 20em;
+  }
+
+  .img:hover {
+    width: 19em;
+  }
+
+  .img img {
+    width: 19em;
+  }
+
+  .photo2 img {
+    width: 3em;
+  }
+
+  .profileCreator {
+    width: 19em;
+  }
+
+  .profileCreator p {
+    font-size: 1.2em;;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 23.2em;
+  }
+
+  .cardBody {
+    height: 40em;
+  }
+
+  .img {
+    height: 20em;
+  }
+
+  .img:hover {
+    height: 20em;
+  }
+
+  .photo2 {
+    height: 3em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    width: 23em;
+    height: 47em;
+  }
+
+  .cardBody {
+    width: 19em;
+    height: 36em;
+    margin: 0 auto;
+  }
+  
+  .img {
+    width: 16em;
+    height: 16em;
+  }
+
+  .img:hover {
+    width: 16em;
+    height: 16em;
+    display: flex;
+    align-items: center;
+  }
+
+  .img img {
+    width: 16em;
+  }
+
+  .photo2 img {
+    width: 3em;
+    height: 3em;
+  }
+  
+  .itemDescription p {
+    width: 15em;
+  }
+
+  .profileCreator {
+    width: 16em;
+  }
+
+  .profileCreator p {
+    font-size: 1em;;
+  }
+}
