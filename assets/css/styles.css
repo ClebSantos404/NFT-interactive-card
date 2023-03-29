@@ -7,7 +7,7 @@
   --box-shadow-color: #091120;
   --card-color: #15273f;
   --eth-color: #2ed9d8;
-  --color-texts: #859bbca9;
+  --color-texts: #89a0c2a9;
 }
 
 * {
@@ -18,8 +18,7 @@
 
 body {
   background: var(--bg-color);
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
